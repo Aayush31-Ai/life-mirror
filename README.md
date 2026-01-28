@@ -110,7 +110,7 @@ Create a `.env` file in the project root:
 
 ```env
 VITE_GEMINI_API_KEY=your_gemini_api_key_here
-VITE_JSON_SERVER_URL=http://localhost:3002
+VITE_JSON_SERVER_URL=http://localhost:3001
 ```
 
 **Get your Gemini API Key**:
@@ -132,7 +132,7 @@ npm run dev:all
 
 The application will be available at:
 - **Frontend**: [http://localhost:5173](http://localhost:5173) (or next available port)
-- **JSON Server**: http://localhost:3002
+- **JSON Server**: http://localhost:3001
 
 ### Alternative: Run Separately
 
@@ -208,7 +208,7 @@ life-mirror/
 ## 🐛 Troubleshooting
 
 ### Port Already in Use
-If port 5173 or 3002 is in use, Vite will automatically use the next available port. Check the terminal output for the correct URL.
+If port 5173 or 3001 is in use, Vite will automatically use the next available port. Check the terminal output for the correct URL.
 
 ### Gemini API Key Errors
 - Verify `VITE_GEMINI_API_KEY` is set in `.env`
