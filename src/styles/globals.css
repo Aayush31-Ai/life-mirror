@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 border border-gray-100;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply btn bg-health-blue text-white hover:bg-blue-600 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply btn bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  .btn-danger {
+    @apply btn bg-health-red text-white hover:bg-red-700;
+  }
+
+  .btn-success {
+    @apply btn bg-health-green text-white hover:bg-green-600;
+  }
+
+  .input-base {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-health-blue focus:border-transparent;
+  }
+
+  .metric-bar-base {
+    @apply w-full h-3 bg-gray-200 rounded-full overflow-hidden;
+  }
+
+  .metric-fill {
+    @apply h-full transition-all duration-500 ease-out;
+  }
+
+  .metric-fill-energy {
+    @apply bg-health-green;
+  }
+
+  .metric-fill-stress {
+    @apply bg-health-red;
+  }
+
+  .metric-fill-momentum {
+    @apply bg-health-blue;
+  }
+
+  .narrative-card {
+    @apply bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 border-l-4 border-health-blue;
+  }
+
+  .nudge-card-base {
+    @apply card mb-3 border-l-4;
+  }
+
+  .nudge-card-warning {
+    @apply nudge-card-base border-orange-500 bg-orange-50;
+  }
+
+  .nudge-card-success {
+    @apply nudge-card-base border-green-500 bg-green-50;
+  }
+
+  .nudge-card-info {
+    @apply nudge-card-base border-blue-500 bg-blue-50;
+  }
+
+  .nudge-card-gentle {
+    @apply nudge-card-base border-purple-500 bg-purple-50;
+  }
+}
+
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes bounce-subtle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+  }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s ease-in-out infinite;
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Sarah Chen",
+    "age": 42,
+    "diagnosis": "Type 2 Diabetes",
+    "diagnosisDate": "2023-06-15",
+    "currentDate": "2026-01-27"
+  },
+  "healthState": {
+    "currentDay": 30,
+    "energy": 82,
+    "glucoseStress": 70,
+    "insulinWorkload": 72,
+    "adherenceMomentum": 73,
+    "stressLevel": 23,
+    "lastUpdated": "2026-01-27T14:30:00Z"
+  },
+  "lifeMoments": [
+    {
+      "id": "1",
+      "date": "2026-01-27",
+      "type": "sleep",
+      "intensity": "poor",
+      "description": "Woke up 3 times, only 5 hours total",
+      "impact": {
+        "energy": -20,
+        "stress": 15,
+        "glucoseStress": 10
+      },
+      "narrative": null,
+      "timestamp": "2026-01-27T07:00:00Z"
+    },
+    {
+      "id": "2",
+      "date": "2026-01-27",
+      "type": "activity",
+      "intensity": "moderate",
+      "description": "30-minute morning walk before work",
+      "impact": {
+        "energy": 15,
+        "stress": -10,
+        "glucoseStress": -8,
+        "insulinWorkload": -5
+      },
+      "narrative": null,
+      "timestamp": "2026-01-27T08:30:00Z"
+    },
+    {
+      "id": "3",
+      "date": "2026-01-27",
+      "type": "diet",
+      "intensity": "high",
+      "description": "Team lunch: burger, fries, regular soda",
+      "impact": {
+        "glucoseStress": 25,
+        "insulinWorkload": 20
+      },
+      "narrative": null,
+      "timestamp": "2026-01-27T12:15:00Z"
+    },
+    {
+      "id": "4",
+      "date": "2026-01-26",
+      "type": "stress",
+      "intensity": "high",
+      "description": "Stressful presentation to executives",
+      "impact": {
+        "stress": 30,
+        "energy": -15,
+        "glucoseStress": 8
+      },
+      "narrative": null,
+      "timestamp": "2026-01-26T15:00:00Z"
+    },
+    {
+      "id": "5",
+      "date": "2026-01-26",
+      "type": "emotional",
+      "intensity": "moderate",
+      "description": "Had a positive conversation with my daughter",
+      "impact": {
+        "stress": -12,
+        "energy": 10,
+        "adherenceMomentum": 5
+      },
+      "narrative": null,
+      "timestamp": "2026-01-26T18:30:00Z"
+    },
+    {
+      "id": "6",
+      "date": "2026-01-25",
+      "type": "diet",
+      "intensity": "low",
+      "description": "Healthy salad with grilled chicken, herbal tea",
+      "impact": {
+        "glucoseStress": -8,
+        "insulinWorkload": -3,
+        "adherenceMomentum": 8
+      },
+      "narrative": null,
+      "timestamp": "2026-01-25T12:30:00Z"
+    },
+    {
+      "id": "7",
+      "date": "2026-01-25",
+      "type": "activity",
+      "intensity": "low",
+      "description": "Skipped gym - felt too tired",
+      "impact": {
+        "adherenceMomentum": -5,
+        "energy": -5
+      },
+      "narrative": null,
+      "timestamp": "2026-01-25T17:00:00Z"
+    },
+    {
+      "id": "1769532675515",
+      "date": "2026-01-27",
+      "type": "diet",
+      "intensity": "moderate",
+      "description": "i ate the fast food ",
+      "timestamp": "2026-01-27T16:51:15.515Z",
+      "impact": {}
+    },
+    {
+      "id": "1769541903882",
+      "date": "2026-01-27",
+      "type": "emotional",
+      "intensity": "positive",
+      "description": "i emotionally feel very sick ",
+      "timestamp": "2026-01-27T19:25:03.883Z",
+      "impact": {
+        "stress": -12,
+        "energy": 10,
+        "adherenceMomentum": 5
+      }
+    },
+    {
+      "id": "1769542102554",
+      "date": "2026-01-27",
+      "type": "diet",
+      "intensity": "moderate",
+      "description": "due to stress i ate to much",
+      "timestamp": "2026-01-27T19:28:22.554Z",
+      "impact": {}
+    },
+    {
+      "id": "1769543094376",
+      "date": "2026-01-27",
+      "type": "stress",
+      "intensity": "moderate",
+      "description": "fucked",
+      "timestamp": "2026-01-27T19:44:54.376Z",
+      "impact": {}
+    },
+    {
+      "id": "1769577088923",
+      "date": "2026-01-28",
+      "type": "sleep",
+      "intensity": "high",
+      "description": "i taked less sleep due to some works\n",
+      "timestamp": "2026-01-28T05:11:28.923Z",
+      "impact": {}
+    },
+    {
+      "id": "1769577394255",
+      "date": "2026-01-28",
+      "type": "activity",
+      "intensity": "moderate",
+      "description": "less sleep",
+      "timestamp": "2026-01-28T05:16:34.255Z",
+      "impact": {}
+    },
+    {
+      "id": 1769606431472,
+      "date": "2026-01-28",
+      "type": "diet",
+      "intensity": "high",
+      "description": "KGUKK",
+      "timestamp": "2026-01-28T13:20:31.472Z",
+      "impact": {
+        "glucoseStress": 25,
+        "insulinWorkload": 20
+      }
+    }
+  ],
+  "twins": {
+    "current": {
+      "energy": 82,
+      "glucoseStress": 70,
+      "insulinWorkload": 72,
+      "adherenceMomentum": 73,
+      "stressLevel": 38
+    },
+    "whatIf": {
+      "id": "twin_whatif",
+      "name": "What If: Better Choices",
+      "type": "whatif",
+      "energy": 82,
+      "glucoseStress": 28,
+      "insulinWorkload": 35,
+      "adherenceMomentum": 85,
+      "trend": "improving",
+      "avatarState": "energized",
+      "dayNumber": 30,
+      "scenario": "If you had chosen the salad instead of the burger, skipped stressful moment mindfully, and gotten 8 hours of sleep"
+    }
+  },
+  "organConversations": [
+    {
+      "id": "1",
+      "organ": "Pancreas",
+      "date": "2026-01-27",
+      "momentId": 3,
+      "personality": "overworked",
+      "message": "I'm your pancreas, and that burger + soda combo just sent my stress through the roof. I had to pump out extra insulin to handle all that sugar. I'm getting tired—this happens too often, Sarah.",
+      "emotionalTone": "fatigued and concerned",
+      "response": null,
+      "timestamp": "2026-01-27T12:30:00Z"
+    },
+    {
+      "id": "2",
+      "organ": "Heart",
+      "date": "2026-01-26",
+      "momentId": 4,
+      "personality": "protective",
+      "message": "Your heart here. That presentation stress hit hard—my beat quickened, and I had to work overtime. The good news? Your walk this morning really helped calm me down earlier. Can we do that again tomorrow?",
+      "emotionalTone": "protective and hopeful",
+      "response": null,
+      "timestamp": "2026-01-26T15:30:00Z"
+    },
+    {
+      "id": "3",
+      "organ": "BloodVessels",
+      "date": "2026-01-25",
+      "momentId": 6,
+      "personality": "gradual",
+      "message": "Your blood vessels speaking. That healthy meal was smooth sailing for us. No sugar spikes, no inflammation—we appreciate the break. These small choices add up over time.",
+      "emotionalTone": "calm and reporting",
+      "response": null,
+      "timestamp": "2026-01-25T12:45:00Z"
+    }
+  ],
+  "nudges": [
+    {
+      "id": "1",
+      "type": "loss-aversion",
+      "trigger": "poor_sleep",
+      "message": "Last week, better sleep helped you make smarter food choices. Skipping sleep tonight weakens that momentum.",
+      "intensity": "gentle",
+      "isShown": false,
+      "date": "2026-01-27"
+    },
+    {
+      "id": "2",
+      "type": "progress-visibility",
+      "trigger": "diet_choice",
+      "message": "You've made 8 good food choices this week. This lunch is a chance to keep that streak alive.",
+      "intensity": "encouraging",
+      "isShown": false,
+      "date": "2026-01-27"
+    },
+    {
+      "id": "3",
+      "type": "habit-streak",
+      "trigger": "activity_completion",
+      "message": "26 days of consistent walks. That's powerful—your heart and mind are thriving.",
+      "intensity": "celebration",
+      "isShown": false,
+      "date": "2026-01-27"
+    },
+    {
+      "id": "4",
+      "type": "gentle-warning",
+      "trigger": "multiple_risk_factors",
+      "message": "Poor sleep + stress + sugar is a triple hit on your system. Your pancreas is asking for a break.",
+      "intensity": "soft-warning",
+      "isShown": false,
+      "date": "2026-01-27"
+    }
+  ],
+  "memories": [
+    {
+      "id": "1",
+      "date": "2026-01-20",
+      "type": "achievement",
+      "content": "Completed 7 consecutive days of morning walks. Felt the strongest in months.",
+      "impact": "positive"
+    },
+    {
+      "id": "2",
+      "date": "2026-01-18",
+      "type": "lesson",
+      "content": "Realized that stress eating leads to 3 days of guilt. Started using breathing instead.",
+      "impact": "learning"
+    },
+    {
+      "id": "3",
+      "date": "2026-01-10",
+      "type": "conversation",
+      "content": "Pancreas told me it's not about perfection, just consistency.",
+      "impact": "positive"
+    },
+    {
+      "id": "4",
+      "date": "2026-01-27",
+      "type": "current-reflection",
+      "content": "Today: poor sleep offset by a good morning walk. Still deciding on lunch.",
+      "impact": "neutral"
+    }
+  ],
+  "narrativeHistory": [
+    {
+      "id": "1",
+      "date": "2026-01-25",
+      "type": "daily-summary",
+      "narrative": "Today unfolded like a story of balance and struggle. Your morning salad was a victory—your pancreas relaxed, your blood vessels stayed calm. But by evening, the gym felt too heavy. That's okay. Progress isn't a straight line; it's a rhythm.",
+      "momentIds": [
+        6,
+        7
+      ]
+    }
+  ]
+}
